@@ -31,6 +31,7 @@ import { ProductRead2Component } from './components/product/product-read2/produc
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { ProductUppdateComponent } from './components/product/product-uppdate/product-uppdate.component';
 
 registerLocaleData(localePt);
 
@@ -47,6 +48,7 @@ registerLocaleData(localePt);
     ForDirective,
     ProductReadComponent,
     ProductRead2Component,
+    ProductUppdateComponent,
   ],
   imports: [
     BrowserModule,
